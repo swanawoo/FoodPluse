@@ -1,0 +1,25 @@
+shopping_insight:
+  base_url: https://naverapihub.apigw.ntruss.com
+  path: /shopping/v1/category/keyword/device
+  category_id: "50000000"
+  start_date: "2020-01-01"
+  end_date: "2026-10-31"
+  time_unit: date
+search:
+  base_url: https://naverapihub.apigw.ntruss.com
+  blog_path: /search/v1/blog
+  cafe_path: /search/v1/cafearticle
+  display: 100
+categories:
+  mandu:
+    name: 만두
+    shopping_keyword: 만두
+    queries: {q01: 냉동만두 후기, q02: 만두 후기, q03: 왕교자 후기, q04: 만두 맛 비교, q05: 냉동만두 추천}
+  rice:
+    name: 즉석밥
+    shopping_keyword: 즉석밥
+    queries: {q01: 즉석밥 후기, q02: 햇반 후기, q03: 즉석밥 비교, q04: 즉석밥 추천, q05: 컵밥 후기}
+  kimchi:
+    name: 김치
+    shopping_keyword: 김치
+    queries: {q01: 김치 후기, q02: 포기김치 후기, q03: 김치 주문 후기, q04: 시판 김치 비교, q05: 김장김치 후기}
